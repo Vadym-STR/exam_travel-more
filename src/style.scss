@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aleo&display=swap');
+
+// Components
+@import "introducing/introducing";
+@import "logo/logo";
+@import "search/search";
+@import "header/header";
+@import "choice/choice";
+@import "order/order";
+@import "offers/offers";
+@import "tourist-say/tourist-say";
+@import "footer/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}

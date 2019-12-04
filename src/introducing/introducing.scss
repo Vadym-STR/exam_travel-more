@@ -1,0 +1,43 @@
+.introducing {
+    background: url(../../assets/images/header.jpg) no-repeat center top fixed;
+    height: 740px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+    @media screen and (max-width: 576px) {
+        height: auto;
+        height: 740px;
+    }
+}
+
+.scroll-down {
+    position: absolute;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    margin-top: 571px;
+    text-decoration: none;
+;
+}
+
+.icon_scroll-down {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 8px;
+    fill: #ffffff;
+    top: 597px;
+    left: 50%;
+    margin-left: -15px;
+}
+

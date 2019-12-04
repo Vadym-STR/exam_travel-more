@@ -1,0 +1,107 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 268px;
+    background-color: #232323;
+    position: relative;
+}
+
+.footer__logo {
+    display: flex;
+    position: absolute;
+    top: 120px;
+}
+
+.footer__logo__title {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 400;
+    max-width: 170px;
+}
+
+.footer__logo__link {
+    text-decoration: none;
+}
+
+.footer__logo__slogan {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    letter-spacing: 0.9px;
+    max-width: 170px;
+}
+
+.footer__logo__title:hover,
+.footer__logo__slogan:hover {
+    color: #5474fd;
+}
+
+.socials {
+    max-width: 170px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+
+.socials__icons {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    transform: translateX(-8px);
+}
+
+.socials__links {
+    display: flex;
+}
+
+.icon_facebook {
+    width: 20px;
+    fill: #ffffff;
+}
+
+.icon_facebook:hover {
+    fill: #5474fd;
+}
+
+.icon_twitter {
+    width: 20px;
+    fill: #ffffff;
+}
+
+.icon_twitter:hover {
+    fill: #5474fd;
+}
+
+.icon_linked-in {
+    width: 20px;
+    fill: #ffffff;
+}
+
+.icon_linked-in:hover {
+    fill:#1293d2;
+}
+
+.icon_youtube {
+    width: 22px;
+    fill: #ffffff;
+}
+
+.icon_youtube:hover {
+    fill: #c4302b;
+}
+
+.icon_pinterest {
+    width: 20px;
+    fill: #ffffff;
+}
+
+.icon_pinterest:hover {
+    fill:#c8232c;
+}

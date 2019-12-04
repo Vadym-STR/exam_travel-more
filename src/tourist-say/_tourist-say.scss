@@ -1,0 +1,116 @@
+.tourist-say {
+    background: url(../../assets/images/tourist_background.jpg) no-repeat center top fixed;
+    height: 731px;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    @media screen and (max-width: 1023px) {
+        height: 999px;
+        width: 100vw;
+    }
+}
+
+.tourist-say__title {
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    
+
+    @media screen and (max-width: 576px) {
+        font-size: 28px;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 767px) {
+
+    }
+}
+
+.tourist-say__feedback {
+    position: absolute;
+    display: flex;
+    max-width: 1110px;
+    top: 247px;
+
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1199px) {
+        max-width: 960px;
+    }
+}
+
+.tourist-say__feedback-text {
+    width: 100vw;
+    max-height: 284px;
+    display: flexbox;
+    color: #e8e8e8;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    background-color: #333333;
+
+    @media screen and (max-width: 1024px) {
+        max-height: 400px;
+        max-width: 445px;
+        margin: auto;
+    }
+
+    @media screen and (min-width: width 1025px) and (max-width: 1199px) {
+        max-width: 695px;
+    }
+}
+
+
+.tourist-say__feedback-name {
+    text-transform: uppercase;
+    color: #fefefe;
+    font-size: 20px;
+    margin: 50px 0 0 60px;
+    font-weight: 400;
+
+    @media screen and (max-width: 576px) {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+
+.tourist-say__feedback-descriotion {
+    color: #e8e8e8;
+    margin-top: 33px;
+    margin: 33px 54px 48px 60px;
+
+    @media screen and (max-width: 1200px) {
+        margin: 15px 20px;
+    }
+
+    @media screen and (max-width: 576px) {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+.icon_quote {
+    width: 20px;
+    height: 17px;
+    fill: #5474fd;
+    margin: 0 5px 10px 0;
+}

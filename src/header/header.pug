@@ -1,0 +1,21 @@
+include ../utils/mixin
+
+header.header
+    .header__wrapper
+        p.head-logo bromaon
+        input(type="checkbox", name="navigation" id="check-menu")
+        label(for="check-menu")
+        .burger-line.first
+        .burger-line.second
+        .burger-line.third
+        .burger-line.fourth
+        nav.menu
+            ul.menu__list
+                li.menu__item
+                    a.menu__links(href="#") Who we are
+                li.menu__item
+                    a.menu__links(href="#") What we do
+                li.menu__item
+                    a.menu__links(href="#") Travel with us
+                li.menu__item
+                    a.menu__links(href="#") Contact us

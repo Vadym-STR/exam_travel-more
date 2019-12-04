@@ -1,0 +1,32 @@
+.logo__link {
+    display: block;
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    top: 265px;
+}
+
+.logo__title {
+    width: 312px;
+    height: 40px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    text-indent: 0px;
+    text-align: center;
+}
+
+.logo__slogan {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5.3px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
