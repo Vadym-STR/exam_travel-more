@@ -12,7 +12,7 @@
 }
 
 .offers__left {
-    background: url(../../assets/images/offers_first.jpg) no-repeat center top fixed;
+    background: url(../assets/images/offers_first.jpg) no-repeat center top fixed;
     height: 700px;
     padding: 229px 0px 100px 330px;
     display: flex;
@@ -47,7 +47,7 @@
 }
 
 .offers__right {
-    background: url(../../assets/images/offers_second.jpg) no-repeat center top fixed;
+    background: url(../assets/images/offers_second.jpg) no-repeat center top fixed;
     height: 700px;
     padding: 229px 330px 100px 0px;
     display: flex;
@@ -128,7 +128,5 @@
 
 .offers__block-link:hover {
     text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;
 }
